@@ -1,0 +1,50 @@
+.works__container {
+    width: 90%;
+    margin: 60px;
+    padding: 40px;
+    min-height: 400px;
+    background: linear-gradient(178deg, #3498db, #9b59b6);
+    background-size: 100% 100%;
+    -webkit-animation: AnimationName 27s ease infinite;
+    animation: AnimationName 27s ease infinite;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 60%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 70%;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 50% 0%
+    }
+
+    50% {
+        background-position: 51% 100%
+    }
+
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 50% 0%
+    }
+
+    50% {
+        background-position: 51% 100%
+    }
+
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+.works__cards__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

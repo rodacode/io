@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.header__container {
+    width: 100%;
+    min-height: 600px;
+    background: linear-gradient(178deg, #3498db, #9b59b6);
+    background-size: 400% 400%;
+    color: #fff;
+    -webkit-animation: AnimationName 27s ease infinite;
+    animation: AnimationName 27s ease infinite;
+    padding: 20px;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 10%;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 50% 0%
+    }
+
+    50% {
+        background-position: 51% 100%
+    }
+
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 50% 0%
+    }
+
+    50% {
+        background-position: 51% 100%
+    }
+
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+
+.header__logo {
+    font-size: 56px;
+    font-family: 'Orbitron', sans-serif;
+    margin:30px;
+}
+
+.header__content{
+    font-size: 40px;
+    margin: 60px auto;
+    display:flex;
+    justify-content:center;
+}

@@ -1,0 +1,9 @@
+.wedo__container {
+    margin: 40px auto;
+    .wedo__cards__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}
