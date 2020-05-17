@@ -18,10 +18,6 @@ const Team = () => {
                         <h2>Fidel Iranzo</h2>
                         <p>Graphic Designer / UX Designer</p>
                     </div>
-                    <div className="card">
-                        <h2>Paolo Roozin</h2>
-                        <p>We have what you need</p>
-                    </div>
                 </div>
             </Fade>
         </div>

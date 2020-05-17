@@ -7,7 +7,7 @@ const Works = () => {
             <Fade>
                 <h1 className="text-center">OUR WORKS</h1>
             </Fade>
-            <Fade bottom>
+            <Fade>
                 <div class="works__cards__container">
                     <div className="card">
                         <h2>Le Parfum</h2>
